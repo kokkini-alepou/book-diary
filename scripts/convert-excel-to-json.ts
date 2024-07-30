@@ -1,7 +1,7 @@
 const XLSX = require("xlsx");
 const fs = require("fs");
 
-const excelFilePath = "./public/data/books.xlsx";
+const excelFilePath = "./data/books.xlsx";
 const jsonFilePath = "./public/data/books.json";
 
 interface Book {
@@ -30,7 +30,7 @@ const convertExcelToJson = () => {
   const jsonData = rows.map((row) => {
     const obj: { [key: string]: any } = {};
     headers.forEach((header, index) => {
-      obj[header] = row[index];
+      obj[header] = row[index] !== undefined ? row[index] : "";
     });
     return obj as Book;
   });
