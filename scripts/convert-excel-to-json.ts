@@ -1,7 +1,7 @@
 const XLSX = require("xlsx");
 const fs = require("fs");
 
-const excelFilePath = "./public/data/books.xlsx";
+const excelFilePath = "./data/books.xlsx";
 const jsonFilePath = "./public/data/books.json";
 
 interface Book {
