@@ -502,5 +502,33 @@
     "PublicationDate": "1974-00-00",
     "ISBN": "0002111721",
     "Description": ""
+  },
+  {
+    "ID": "350a5aa8",
+    "Date": "2024-07-31",
+    "Title": "Ansel Adams: Classic Images",
+    "Writer": "Ansel Adams",
+    "PartOfSeries": "",
+    "SeriesNumber": "",
+    "PrintLength": 111,
+    "Language": "English",
+    "Publisher": "Little, Brown and Company",
+    "PublicationDate": "2003-00-00",
+    "ISBN": "0821216295",
+    "Description": ""
+  },
+  {
+    "ID": "3987d4f1",
+    "Date": "2024-07-31",
+    "Title": "Fine Nude Art",
+    "Writer": "Manfred Baumann",
+    "PartOfSeries": "",
+    "SeriesNumber": "",
+    "PrintLength": 160,
+    "Language": "Deutsch, English",
+    "Publisher": "Verlag 66",
+    "PublicationDate": "2005-09-05",
+    "ISBN": "390221130X",
+    "Description": ""
   }
 ]
